@@ -108,7 +108,7 @@ namespace SPV3
       set
       {
         if (value == _steamStatus) return;
-                _steamStatus = value;
+        _steamStatus = value;
         OnPropertyChanged();
       }
     }
